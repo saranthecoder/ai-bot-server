@@ -4,6 +4,8 @@
       "tag": "greeting",
       "patterns": [
         "Hi",
+        "Hii",
+        "Hlo",
         "Hello",
         "Hey",
         "Good day"
@@ -286,6 +288,898 @@
       ],
       "responses": [
         "No, there are no consumption restrictions. Only alerts will be given."
+      ]
+    },
+    {
+      "tag": "tips_energy",
+      "patterns": [
+        "Give me energy-saving tips",
+        "How can I reduce my electricity bill?",
+        "Energy efficiency tips"
+      ],
+      "responses": [
+        "Certainly! Here are some energy-saving tips:\n\n1. Use LED bulbs to save on lighting costs.\n2. Unplug devices when not in use.\n3. Seal gaps and insulate your home to keep it energy-efficient.\n4. Use energy-efficient appliances.\n5. Consider solar panels for renewable energy."
+      ]
+    },
+    {
+      "tag": "tips_water",
+      "patterns": [
+        "Give me water-saving tips",
+        "How can I reduce my water consumption?",
+        "Water efficiency tips"
+      ],
+      "responses": [
+        "Of course! Here are some water-saving tips:\n\n1. Fix any leaking faucets or pipes promptly.\n2. Install low-flow showerheads and toilets.\n3. Water your garden early in the morning or late in the evening to reduce evaporation.\n4. Collect rainwater for outdoor use.\n5. Only run your dishwasher and washing machine with full loads."
+      ]
+    },
+    {
+      "tag": "global_efficiency",
+      "patterns": [
+        "Tell me about global energy efficiency practices",
+        "What are some international energy-saving strategies?"
+      ],
+      "responses": [
+        "International best practices for energy efficiency include:\n\n1. Implementing strict energy efficiency standards for industries and appliances.\n2. Promoting renewable energy sources like wind and solar power.\n3. Encouraging public transportation and energy-efficient vehicles.\n4. Supporting green building initiatives.\n5. Educating the public about energy conservation."
+      ]
+    },
+    {
+      "tag": "tips_energy",
+      "patterns": [
+        "Give me energy-saving tips",
+        "How can I reduce my electricity bill?",
+        "Energy efficiency tips"
+      ],
+      "responses": [
+        "Certainly! Here are some energy-saving tips:\n\n1. Use LED bulbs to save on lighting costs.\n2. Unplug devices when not in use.\n3. Seal gaps and insulate your home to keep it energy-efficient.\n4. Use energy-efficient appliances.\n5. Consider solar panels for renewable energy."
+      ]
+    },
+    {
+      "tag": "tips_water",
+      "patterns": [
+        "Give me water-saving tips",
+        "How can I reduce my water consumption?",
+        "Water efficiency tips"
+      ],
+      "responses": [
+        "Of course! Here are some water-saving tips:\n\n1. Fix any leaking faucets or pipes promptly.\n2. Install low-flow showerheads and toilets.\n3. Water your garden early in the morning or late in the evening to reduce evaporation.\n4. Collect rainwater for outdoor use.\n5. Only run your dishwasher and washing machine with full loads."
+      ]
+    },
+    {
+      "tag": "global_efficiency",
+      "patterns": [
+        "Tell me about global energy efficiency practices",
+        "What are some international energy-saving strategies?"
+      ],
+      "responses": [
+        "International best practices for energy efficiency include:\n\n1. Implementing strict energy efficiency standards for industries and appliances.\n2. Promoting renewable energy sources like wind and solar power.\n3. Encouraging public transportation and energy-efficient vehicles.\n4. Supporting green building initiatives.\n5. Educating the public about energy conservation."
+      ]
+    },
+    {
+      "tag": "renewable_energy",
+      "patterns": [
+        "What are the benefits of renewable energy?",
+        "Tell me about solar power",
+        "Advantages of wind energy"
+      ],
+      "responses": [
+        "Renewable energy sources like solar power and wind energy offer benefits such as:\n\n1. Reduction in greenhouse gas emissions.\n2. Lower long-term energy costs.\n3. Energy independence.\n4. Job creation in the renewable energy sector.\n5. Sustainable and clean energy production."
+      ]
+    },
+    {
+      "tag": "smart_home",
+      "patterns": [
+        "How can I make my home smarter in terms of energy usage?",
+        "Tell me about smart home technology"
+      ],
+      "responses": [
+        "You can make your home smarter for energy efficiency with:\n\n1. Smart thermostats for precise temperature control.\n2. Energy monitoring devices to track usage.\n3. Smart lighting systems with motion sensors.\n4. Automated window shades for natural lighting control.\n5. Energy-efficient appliances that can be controlled remotely."
+      ]
+    },
+    {
+      "tag": "policy_regulations",
+      "patterns": [
+        "What are the government policies on energy conservation?",
+        "Tell me about energy efficiency regulations"
+      ],
+      "responses": [
+        "Government policies often include:\n\n1. Incentives for renewable energy adoption.\n2. Energy efficiency standards for buildings and appliances.\n3. Tax credits for energy-efficient upgrades.\n4. Renewable energy targets and subsidies.\n5. Public awareness campaigns on energy conservation."
+      ]
+    },
+    {
+      "tag": "water_management",
+      "patterns": [
+        "How can I better manage my water usage at home?",
+        "Water conservation strategies"
+      ],
+      "responses": [
+        "You can manage water usage by:\n\n1. Fixing leaks promptly.\n2. Installing low-flow faucets and showerheads.\n3. Collecting rainwater for outdoor use.\n4. Using a pool cover to reduce evaporation.\n5. Installing a water-efficient irrigation system."
+      ]
+    },
+    {
+      "tag": "eco-friendly_products",
+      "patterns": [
+        "Recommend eco-friendly products for energy and water conservation",
+        "Suggest green products"
+      ],
+      "responses": [
+        "Here are some eco-friendly products for energy and water conservation:\n\n1. Energy-efficient appliances with Energy Star ratings.\n2. Smart thermostats for precise temperature control.\n3. Low-flow showerheads and toilets.\n4. Rain barrels for rainwater harvesting.\n5. LED bulbs for energy-efficient lighting."
+      ]
+    },
+    {
+      "tag": "water_saving_tips",
+      "patterns": [
+        "Water saving tips",
+        "How can I save water?",
+        "Ways to conserve water"
+      ],
+      "responses": [
+        "Here are some water-saving tips:\n\n1. Fix Leaks\n2. Collect Rainwater\n3. Collect and Reuse Greywater\n4. Install Smart Irrigation Systems"
+      ]
+    },
+    {
+      "tag": "top_country_rainwater",
+      "patterns": [
+        "What is the top country ranked in saving rainwater?",
+        "Which country conserves the most rainwater?"
+      ],
+      "responses": [
+        "Australia is the country that has been ranked as the top in conserving rainwater."
+      ]
+    },
+    {
+      "tag": "rainwater_conservation_methods",
+      "patterns": [
+        "What are the methods used in Australia in conserving rainwater?",
+        "Australia rainwater conservation techniques"
+      ],
+      "responses": [
+        "In Australia, rainwater conservation methods include:\n1. Rainwater Tanks\n2. Plumbing Integration\n3. Permeable Surfaces\n4. Watering Restrictions"
+      ]
+    },
+    {
+      "tag": "water_restrictions",
+      "patterns": [
+        "What is water restriction mean?",
+        "Explain water usage restrictions"
+      ],
+      "responses": [
+        "Water restriction means adherence to watering restrictions during drought periods to conserve rainwater."
+      ]
+    },
+    {
+      "tag": "water_usage_app",
+      "patterns": [
+        "Does this app provide any water usage restrictions?",
+        "Can I get water conservation alerts from this app?"
+      ],
+      "responses": [
+        "We provide information on how much rainwater has been saved, but we do not provide water usage restrictions."
+      ]
+    },
+    {
+      "tag": "best_water_conservation_methods",
+      "patterns": [
+        "Give best water conservation methods around the world",
+        "Top-rated water conservation techniques"
+      ],
+      "responses": [
+        "The top-rated countries for water conservation are Australia, Japan, Israel, Singapore, Sweden, and Brazil. Which one would you like to know more about?"
+      ]
+    },
+    {
+      "tag": "water_techniques_in_Australia",
+      "patterns": [
+        "Water techniques in Australia",
+        "Australia water conservation methods"
+      ],
+      "responses": [
+        "Water conservation techniques in Australia include:\n1. Desalination Plants\n2. Efficient Agricultural Practices\n3. Precision Irrigation"
+      ]
+    },
+    {
+      "tag": "water_techniques_in_Japan",
+      "patterns": [
+        "Water techniques in Japan",
+        "Japan water conservation methods"
+      ],
+      "responses": [
+        "Water conservation techniques in Japan include:\n1. Advanced Water Recycling\n2. Desalination\n3. Drought Management Plans"
+      ]
+    },
+    {
+      "tag": "water_techniques_in_Israel",
+      "patterns": [
+        "Water techniques in Israel",
+        "Israel water conservation methods"
+      ],
+      "responses": [
+        "Water conservation techniques in Israel include:\n1. Desert Agriculture\n2. Advanced Technology and Sensors\n3. Innovative Water Management"
+      ]
+    },
+    {
+      "tag": "water_techniques_in_Sweden",
+      "patterns": [
+        "Water techniques in Sweden",
+        "Sweden water conservation methods"
+      ],
+      "responses": [
+        "Water conservation techniques in Sweden include:\n1. Monitoring and Data Analysis\n2. Eco-Friendly Building Standards"
+      ]
+    },
+    {
+      "tag": "water_techniques_in_Singapore",
+      "patterns": [
+        "Water techniques in Singapore",
+        "Singapore water conservation methods"
+      ],
+      "responses": [
+        "Water conservation techniques in Singapore include:\n1. NEWater\n2. Floating Solar Farms\n3. Recycling and Reuse in Industries"
+      ]
+    },
+    {
+      "tag": "water_techniques_in_Brazil",
+      "patterns": [
+        "Water techniques in Brazil",
+        "Brazil water conservation methods"
+      ],
+      "responses": [
+        "Water conservation techniques in Brazil include:\n1. Reservoir Management\n2. Erosion Control\n3. Wastewater Treatment"
+      ]
+    },
+    {
+      "tag": "where_to_conserve_water",
+      "patterns": [
+        "Where can we conserve water?",
+        "Locations for water conservation"
+      ],
+      "responses": [
+        "You can conserve water in various ways, such as in laundry, dishes, rain barrels, and by using dual-flush toilets. Which one would you like to know more about?"
+      ]
+    },
+    {
+      "tag": "laundry_water_conservation",
+      "patterns": [
+        "Laundry",
+        "How to save water while doing laundry"
+      ],
+      "responses": [
+        "Wait until you have a full load of laundry before running the washing machine to maximize water efficiency."
+      ]
+    },
+    {
+      "tag": "dishes_water_conservation",
+      "patterns": [
+        "Dishes",
+        "How to save water while doing dishes"
+      ],
+      "responses": [
+        "Fill a basin with soapy water for washing and another with rinse water instead of letting the tap run continuously."
+      ]
+    },
+    {
+      "tag": "rainbarrel_water_conservation",
+      "patterns": [
+        "Rain barrel",
+        "How does a rain barrel help conserve water?"
+      ],
+      "responses": [
+        "A rain barrel collects rainwater from your roof, which can be used for watering plants and gardens, reducing the need for tap water."
+      ]
+    },
+    {
+      "tag": "dual_flush_toilets_water_conservation",
+      "patterns": [
+        "Dual flush toilets",
+        "How do dual flush toilets conserve water?"
+      ],
+      "responses": [
+        "Dual-flush toilets allow users to choose between a low-volume flush for liquid waste and a high-volume flush for solid waste, reducing water usage."
+      ]
+    },
+    {
+      "tag": "top1_country_in_water_conservation",
+      "patterns": [
+        "Top 1 country in conserving water",
+        "Which country excels in water conservation?"
+      ],
+      "responses": [
+        "Israel is the top-ranked country in conserving water."
+      ]
+    },
+    {
+      "tag": "water_importance",
+      "patterns": [
+        "Water importance",
+        "Why is water important?"
+      ],
+      "responses": [
+        "Water is essential for all forms of life and is a fundamental resource for human survival."
+      ]
+    },
+    {
+      "tag": "water_suggestions",
+      "patterns": [
+        "Water suggestions",
+        "How can I contribute to water conservation?"
+      ],
+      "responses": [
+        "Here are some water-saving suggestions:\n1. Collect Rainwater\n2. Time Your Showers\n3. Reuse Greywater\n4. Advocate for Policy Changes\n5. Support Water-Saving Technologies"
+      ]
+    },
+    {
+      "tag": "graywater",
+      "patterns": [
+        "Graywater",
+        "What is graywater?"
+      ],
+      "responses": [
+        "Gray water is the already used water that can be used again after recycling."
+      ]
+    },
+    {
+      "tag": "rainwater_storage",
+      "patterns": [
+        "Rainwater storage",
+        "How can rainwater be stored?"
+      ],
+      "responses": [
+        "Rainwater can be stored in tanks and can be further recycled for various purposes."
+      ]
+    },
+    {
+      "tag": "water_and_electricity",
+      "patterns": [
+        "Water and electricity",
+        "What's the relationship between water and electricity?"
+      ],
+      "responses": [
+        "Water and electricity are both essential resources that need to be conserved for a sustainable future."
+      ]
+    },
+    {
+      "tag": "goal_of_water_conservation",
+      "patterns": [
+        "Goal of water conservation",
+        "Why do we conserve water?"
+      ],
+      "responses": [
+        "The goal of water conservation is to ensure that there will be no scarcity of water resources for future generations."
+      ]
+    },
+    {
+      "tag": "recycle_water",
+      "patterns": [
+        "How do I recycle water?",
+        "Methods for recycling water"
+      ],
+      "responses": [
+        "Recycling water involves collecting water and filtering it for reuse."
+      ]
+    },
+    {
+      "tag": "conservation_definition",
+      "patterns": [
+        "Conservation",
+        "What does conservation mean?"
+      ],
+      "responses": [
+        "Conservation means saving and preserving resources for future use."
+      ]
+    },
+    {
+      "tag": "get_water_alerts",
+      "patterns": [
+        "How do I get alerts for water conservation?",
+        "Can I receive alerts for water usage?"
+      ],
+      "responses": [
+        "You can receive alerts based on the limit you have set for water conservation, typically at 50%, 90%, and 100%."
+      ]
+    },
+    {
+      "tag": "water-saving-appliances",
+      "patterns": [
+        "Water-saving appliances",
+        "Appliances for water conservation",
+        "Efficient water appliances"
+      ],
+      "responses": [
+        "Invest in water-saving appliances like high-efficiency washing machines and dishwashers to reduce water usage."
+      ]
+    },
+    {
+      "tag": "electricity-efficient-cooling",
+      "patterns": [
+        "Efficient cooling systems",
+        "Cooling systems for energy conservation",
+        "Save electricity on cooling"
+      ],
+      "responses": [
+        "Use energy-efficient cooling systems such as ceiling fans and programmable thermostats to reduce electricity consumption."
+      ]
+    },
+    {
+      "tag": "water-conservation-awareness",
+      "patterns": [
+        "Raise water conservation awareness",
+        "Water conservation education",
+        "Promote saving water"
+      ],
+      "responses": [
+        "Educate your community about the importance of water conservation through workshops and awareness campaigns."
+      ]
+    },
+    {
+      "tag": "smart-energy-meter",
+      "patterns": [
+        "Smart energy meters",
+        "Monitoring electricity usage",
+        "Track energy consumption"
+      ],
+      "responses": [
+        "Install a smart energy meter to monitor your electricity usage in real-time and identify areas where you can save."
+      ]
+    },
+    {
+      "tag": "reduce-standby-power",
+      "patterns": [
+        "Reduce standby power",
+        "Minimize vampire power",
+        "Cut idle electricity usage"
+      ],
+      "responses": [
+        "Unplug chargers, devices, and appliances when not in use to reduce standby power consumption."
+      ]
+    },
+    {
+      "tag": "efficient-outdoor-lighting",
+      "patterns": [
+        "Efficient outdoor lighting",
+        "Outdoor LED lights",
+        "Save energy on outdoor lighting"
+      ],
+      "responses": [
+        "Use LED outdoor lights and install motion sensors to reduce energy usage for outdoor lighting."
+      ]
+    },
+    {
+      "tag": "energy-efficient-windows",
+      "patterns": [
+        "Energy-efficient windows",
+        "Window upgrades for energy savings",
+        "Window insulation"
+      ],
+      "responses": [
+        "Upgrade to energy-efficient windows with proper insulation to reduce heating and cooling energy costs."
+      ]
+    },
+    {
+      "tag": "drip-irrigation",
+      "patterns": [
+        "Drip irrigation",
+        "Efficient watering systems",
+        "Reduce water wastage in gardening"
+      ],
+      "responses": [
+        "Implement drip irrigation systems in your garden to deliver water directly to plant roots, minimizing water wastage."
+      ]
+    },
+    {
+      "tag": "power-strips",
+      "patterns": [
+        "Power strips for energy conservation",
+        "Plug multiple devices into one outlet",
+        "Cut off power to multiple devices"
+      ],
+      "responses": [
+        "Use power strips to easily turn off multiple devices at once, preventing standby power consumption."
+      ]
+    },
+    {
+      "tag": "rainwater-harvesting",
+      "patterns": [
+        "Rainwater harvesting",
+        "Collect and reuse rainwater",
+        "Rain barrel usage"
+      ],
+      "responses": [
+        "Install a rainwater harvesting system to collect and reuse rainwater for various purposes, such as watering plants."
+      ]
+    },
+    {
+      "tag": "more_water_saving_tips",
+      "patterns": [
+        "Give me more water-saving tips",
+        "Additional ways to save water",
+        "More water conservation ideas"
+      ],
+      "responses": [
+        "Here are more water-saving tips:\n\n1. Install low-flow showerheads to reduce water usage while bathing.\n2. Insulate hot water pipes to minimize heat loss and save energy.\n3. Use a pool cover to reduce water evaporation in your swimming pool.\n4. Consider a rain garden to capture and filter rainwater for garden use.\n5. Fix any toilet leaks promptly to prevent water wastage."
+      ]
+    },
+    {
+      "tag": "electricity_saving_tips",
+      "patterns": [
+        "Give me electricity-saving tips",
+        "Additional ways to save electricity",
+        "More energy conservation ideas"
+      ],
+      "responses": [
+        "Here are more electricity-saving tips:\n\n1. Switch to energy-efficient appliances with high Energy Star ratings.\n2. Set your computer and monitor to sleep or hibernate mode when not in use.\n3. Opt for natural lighting during the day to reduce the need for artificial lighting.\n4. Seal gaps and cracks in your home's insulation to improve energy efficiency.\n5. Turn off lights and unplug chargers when leaving a room to save electricity."
+      ]
+    },
+    {
+      "tag": "efficient-showerheads",
+      "patterns": [
+        "Efficient showerheads",
+        "Low-flow showerheads",
+        "Water-saving showerheads"
+      ],
+      "responses": [
+        "Install low-flow showerheads to reduce water usage while maintaining a comfortable shower experience."
+      ]
+    },
+    {
+      "tag": "solar-water-heating",
+      "patterns": [
+        "Solar water heating",
+        "Solar hot water systems",
+        "Heating water with solar energy"
+      ],
+      "responses": [
+        "Consider installing solar water heating systems to reduce electricity consumption for heating water."
+      ]
+    },
+    {
+      "tag": "energy-efficient-heat-pumps",
+      "patterns": [
+        "Energy-efficient heat pumps",
+        "Heat pump water heaters",
+        "Efficient hot water systems"
+      ],
+      "responses": [
+        "Upgrade to energy-efficient heat pump water heaters to save on electricity while providing hot water."
+      ]
+    },
+    {
+      "tag": "green-roof-technology",
+      "patterns": [
+        "Green roof technology",
+        "Living roofs for energy conservation",
+        "Green roofs benefits"
+      ],
+      "responses": [
+        "Explore green roof technology to improve insulation and reduce energy consumption in buildings."
+      ]
+    },
+    {
+      "tag": "smart-plugs",
+      "patterns": [
+        "Smart plugs for energy savings",
+        "Remote-controlled outlets",
+        "Efficient use of electrical outlets"
+      ],
+      "responses": [
+        "Use smart plugs to remotely control and schedule the operation of electronic devices, saving electricity."
+      ]
+    },
+    {
+      "tag": "energy-efficient-appliances",
+      "patterns": [
+        "Energy-efficient home appliances",
+        "Appliances with low energy consumption",
+        "Efficient household devices"
+      ],
+      "responses": [
+        "Replace old appliances with energy-efficient models to lower electricity usage and reduce bills."
+      ]
+    },
+    {
+      "tag": "reduce-pool-pump-runtime",
+      "patterns": [
+        "Reduce pool pump runtime",
+        "Efficient pool pump operation",
+        "Save energy on pool maintenance"
+      ],
+      "responses": [
+        "Limit the runtime of your pool pump to save electricity while maintaining pool water quality."
+      ]
+    },
+    {
+      "tag": "composting-toilet",
+      "patterns": [
+        "Composting toilet",
+        "Efficient sanitation systems",
+        "Eco-friendly toilet solutions"
+      ],
+      "responses": [
+        "Consider a composting toilet system to reduce water consumption in areas with water scarcity."
+      ]
+    },
+    {
+      "tag": "efficient-refrigeration",
+      "patterns": [
+        "Efficient refrigeration",
+        "Energy-saving fridges",
+        "Refrigeration with low power usage"
+      ],
+      "responses": [
+        "Choose energy-efficient refrigerators and freezers to cut down on electricity consumption."
+      ]
+    },
+    {
+      "tag": "heat-recovery-ventilation",
+      "patterns": [
+        "Heat recovery ventilation",
+        "Energy-efficient ventilation systems",
+        "Ventilation heat exchangers"
+      ],
+      "responses": [
+        "Install heat recovery ventilation systems to recover heat from exhaust air, saving energy used for heating."
+      ]
+    },
+    {
+      "tag": "water_scarcity",
+      "patterns": [
+        "Water scarcity",
+        "Problem of water scarcity",
+        "Addressing water scarcity"
+      ],
+      "responses": [
+        "Water scarcity is a major problem in India, and it can be mitigated by conserving water and utilizing rainwater harvesting methods."
+      ]
+    },
+    {
+      "tag": "water_in_agriculture",
+      "patterns": [
+        "Water in agriculture",
+        "Water usage in farming",
+        "Agricultural water consumption"
+      ],
+      "responses": [
+        "In India, a significant amount of water is used for agriculture. To learn more about water conservation methods in agriculture, ask about 'conservation in agriculture.'"
+      ]
+    },
+    {
+      "tag": "water_conservation_in_agriculture",
+      "patterns": [
+        "Conservation in agriculture",
+        "Water-saving techniques for farming",
+        "Agricultural water conservation"
+      ],
+      "responses": [
+        "Water conservation methods in agriculture include:\n1. Drip Irrigation\n2. Soil Moisture Monitoring\n3. Regulated Deficit Irrigation (RDI)\n4. Precision Agriculture"
+      ]
+    },
+    {
+      "tag": "top_countries_electricity_conservation",
+      "patterns": [
+        "Top countries in electricity conservation",
+        "Leaders in energy efficiency",
+        "Electricity-saving nations"
+      ],
+      "responses": [
+        "Top countries in electricity conservation include Germany, Japan, Denmark, the UK, Sweden, and South Korea. Specify a country name to learn more."
+      ]
+    },
+    {
+      "tag": "electricity_conservation_germany",
+      "patterns": [
+        "Electricity conservation Germany",
+        "Energy efficiency in Germany",
+        "German energy-saving practices"
+      ],
+      "responses": [
+        "Electricity conservation practices in Germany include:\n1. Energy-Efficient Building Standards\n2. Renewable Energy Transition\n3. Energy Efficiency Labels\n4. Industrial Energy Efficiency\n5. Smart Grids"
+      ]
+    },
+    {
+      "tag": "electricity_conservation_japan",
+      "patterns": [
+        "Electricity conservation Japan",
+        "Energy efficiency in Japan",
+        "Japanese energy-saving practices"
+      ],
+      "responses": [
+        "Electricity conservation practices in Japan include:\n1. Building Energy Codes\n2. Cool Biz and Warm Biz Campaigns\n3. Smart Meters\n4. Energy conservation Act"
+      ]
+    },
+    {
+      "tag": "electricity_conservation_denmark",
+      "patterns": [
+        "Electricity conservation Denmark",
+        "Energy efficiency in Denmark",
+        "Danish energy-saving practices"
+      ],
+      "responses": [
+        "Electricity conservation practices in Denmark include:\n1. Renewable Energy Transition\n2. Energy-Efficient Lighting\n3. Wind Energy Export"
+      ]
+    },
+    {
+      "tag": "electricity_conservation_uk",
+      "patterns": [
+        "Electricity conservation UK",
+        "Energy efficiency in the UK",
+        "British energy-saving practices"
+      ],
+      "responses": [
+        "Electricity conservation practices in the UK include:\n1. Energy Efficiency Labels\n2. Renewable Heat Incentive (RHI)\n3. Carbon Pricing\n4. Electric Vehicle (EV) Incentives"
+      ]
+    },
+    {
+      "tag": "electricity_conservation_sweden",
+      "patterns": [
+        "Electricity conservation Sweden",
+        "Energy efficiency in Sweden",
+        "Swedish energy-saving practices"
+      ],
+      "responses": [
+        "Electricity conservation practices in Sweden include:\n1. Renewable Heat\n2. Public Transportation\n3. Energy Management Systems"
+      ]
+    },
+    {
+      "tag": "electricity_conservation_south_korea",
+      "patterns": [
+        "Electricity conservation South Korea",
+        "Energy efficiency in South Korea",
+        "South Korean energy-saving practices"
+      ],
+      "responses": [
+        "Electricity conservation practices in South Korea include:\n1. Energy Performance Contracting (EPC)\n2. Electricity Price Signals\n3. Clean Energy Transition"
+      ]
+    },
+    {
+      "tag": "top_electricity_saving_countries",
+      "patterns": [
+        "Top countries in electricity conservation",
+        "Most energy-efficient nations",
+        "Leaders in electricity savings"
+      ],
+      "responses": [
+        "The top countries known for electricity conservation are Germany, Japan, Denmark, the UK, Sweden, and South Korea. Which country would you like to know more about?"
+      ]
+    },
+    {
+      "tag": "electricity_conservation_germany",
+      "patterns": [
+        "Electricity conservation Germany",
+        "Energy efficiency in Germany",
+        "German energy-saving practices"
+      ],
+      "responses": [
+        "Germany is a leader in electricity conservation with practices including:\n1. Energy-Efficient Building Standards\n2. Renewable Energy Transition\n3. Energy Efficiency Labels\n4. Industrial Energy Efficiency\n5. Smart Grids"
+      ]
+    },
+    {
+      "tag": "electricity_conservation_japan",
+      "patterns": [
+        "Electricity conservation Japan",
+        "Energy efficiency in Japan",
+        "Japanese energy-saving practices"
+      ],
+      "responses": [
+        "Japan excels in electricity conservation with practices including:\n1. Building Energy Codes\n2. Cool Biz and Warm Biz Campaigns\n3. Smart Meters\n4. Energy conservation Act"
+      ]
+    },
+    {
+      "tag": "electricity_conservation_denmark",
+      "patterns": [
+        "Electricity conservation Denmark",
+        "Energy efficiency in Denmark",
+        "Danish energy-saving practices"
+      ],
+      "responses": [
+        "Denmark is a leader in electricity conservation with practices including:\n1. Renewable Energy Transition\n2. Energy-Efficient Lighting\n3. Wind Energy Export"
+      ]
+    },
+    {
+      "tag": "electricity_conservation_uk",
+      "patterns": [
+        "Electricity conservation UK",
+        "Energy efficiency in the UK",
+        "British energy-saving practices"
+      ],
+      "responses": [
+        "The UK focuses on electricity conservation with practices including:\n1. Energy Efficiency Labels\n2. Renewable Heat Incentive (RHI)\n3. Carbon Pricing\n4. Electric Vehicle (EV) Incentives"
+      ]
+    },
+    {
+      "tag": "electricity_conservation_sweden",
+      "patterns": [
+        "Electricity conservation Sweden",
+        "Energy efficiency in Sweden",
+        "Swedish energy-saving practices"
+      ],
+      "responses": [
+        "Sweden is known for electricity conservation with practices including:\n1. Renewable Heat\n2. Public Transportation\n3. Energy Management Systems"
+      ]
+    },
+    {
+      "tag": "electricity_conservation_south_korea",
+      "patterns": [
+        "Electricity conservation South Korea",
+        "Energy efficiency in South Korea",
+        "South Korean energy-saving practices"
+      ],
+      "responses": [
+        "South Korea focuses on electricity conservation with practices including:\n1. Energy Performance Contracting (EPC)\n2. Electricity Price Signals\n3. Clean Energy Transition"
+      ]
+    },
+    {
+      "tag": "top_water_saving_countries",
+      "patterns": [
+        "Top countries in water conservation",
+        "Most efficient water-saving nations",
+        "Leaders in water savings"
+      ],
+      "responses": [
+        "The top countries known for water conservation include Australia, Japan, Israel, Singapore, Sweden, and Brazil. Which country would you like to know more about?"
+      ]
+    },
+    {
+      "tag": "water_conservation_australia",
+      "patterns": [
+        "Water conservation Australia",
+        "Efficient water usage in Australia",
+        "Australian water-saving practices"
+      ],
+      "responses": [
+        "Australia excels in water conservation with practices including:\n1. Rainwater Tanks\n2. Plumbing Integration\n3. Permeable Surfaces\n4. Watering Restrictions"
+      ]
+    },
+    {
+      "tag": "water_conservation_japan",
+      "patterns": [
+        "Water conservation Japan",
+        "Efficient water usage in Japan",
+        "Japanese water-saving practices"
+      ],
+      "responses": [
+        "Japan is known for water conservation with practices including:\n1. Advanced Water Recycling\n2. Desalination\n3. Drought Management Plans"
+      ]
+    },
+    {
+      "tag": "water_conservation_israel",
+      "patterns": [
+        "Water conservation Israel",
+        "Efficient water usage in Israel",
+        "Israeli water-saving practices"
+      ],
+      "responses": [
+        "Israel focuses on water conservation with practices including:\n1. Desert Agriculture\n2. Advanced Technology and Sensors\n3. Innovative Water Management"
+      ]
+    },
+    {
+      "tag": "water_conservation_singapore",
+      "patterns": [
+        "Water conservation Singapore",
+        "Efficient water usage in Singapore",
+        "Singaporean water-saving practices"
+      ],
+      "responses": [
+        "Singapore is known for water conservation with practices including:\n1. NEWater\n2. Floating Solar Farms\n3. Recycling and Reuse in Industries"
+      ]
+    },
+    {
+      "tag": "water_conservation_sweden",
+      "patterns": [
+        "Water conservation Sweden",
+        "Efficient water usage in Sweden",
+        "Swedish water-saving practices"
+      ],
+      "responses": [
+        "Sweden excels in water conservation with practices including:\n1. Monitoring and Data Analysis\n2. Eco-Friendly Building Standards"
+      ]
+    },
+    {
+      "tag": "water_conservation_brazil",
+      "patterns": [
+        "Water conservation Brazil",
+        "Efficient water usage in Brazil",
+        "Brazilian water-saving practices"
+      ],
+      "responses": [
+        "Brazil focuses on water conservation with practices including:\n1. Reservoir Management\n2. Erosion Control\n3. Wastewater Treatment"
       ]
     }
   ]
