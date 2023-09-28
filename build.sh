@@ -1,4 +1,5 @@
 #!/bin/bash
+set -o errexit
 
 # Determine the virtual environment activation script based on the operating system
 if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
