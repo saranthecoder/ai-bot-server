@@ -1,5 +1,5 @@
 #!/bin/bash
-set -o errexit
+#set -o errexit
 
 # Determine the virtual environment activation script based on the operating system
 if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
@@ -23,7 +23,7 @@ pip install gunicorn==19.7.1
 python -c "import nltk, shutil; shutil.copytree('nltk_data', nltk.data.find('corpora'))"
 
 
-# /opt/render/project/src/venv/bin/python -m pip install --upgrade pip
+/opt/render/project/src/venv/bin/python -m pip install --upgrade pip
 
 # Install required Python packages from requirements.txt
 pip install -r requirements.txt
