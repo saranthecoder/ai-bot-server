@@ -21,5 +21,7 @@ pip install Flask torch torchvision nltk
 python -c "import nltk, shutil; shutil.copytree('nltk_data', nltk.data.find('corpora'))"
 
 
+/opt/render/project/src/venv/bin/python -m pip install --upgrade pip
+
 # Install required Python packages from requirements.txt
 pip install -r requirements.txt
