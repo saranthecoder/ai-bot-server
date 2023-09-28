@@ -2,9 +2,21 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from chat import get_response
 import nltk
+import os
 
-# Set NLTK data path explicitly
-nltk.data.path.append('C:\\Users\\saran\\AppData\\Roaming\\nltk_data')
+# Specify the NLTK data directory path
+nltk_data_dir = '/opt/render/nltk_data'  # Replace with the correct path
+
+# Check if the specified path exists, if not, create it
+if not os.path.exists(nltk_data_dir):
+    os.makedirs(nltk_data_dir)
+
+# Set the NLTK data directory
+nltk.data.path.append(nltk_data_dir)
+
+# Download the 'punkt' data
+nltk.download('punkt')
+
 
 app = Flask(__name__)
 CORS(app)
