@@ -25,3 +25,5 @@ python -c "import nltk, shutil; shutil.copytree('nltk_data', nltk.data.find('cor
 
 # Install required Python packages from requirements.txt
 pip install -r requirements.txt
+pip install gunicorn
+
