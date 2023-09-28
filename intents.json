@@ -1,0 +1,292 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you with your consumption monitoring?",
+        "Hey! What can I do for you regarding your utilities?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye"
+      ],
+      "responses": [
+        "Goodbye! If you have more questions, feel free to return.",
+        "See you later! Don't hesitate to come back if you need assistance.",
+        "Bye! Have a great day."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "You're welcome. If you need anything else, just ask."
+      ]
+    },
+    {
+      "tag": "water_consumption",
+      "patterns": [
+        "How much water have I used this month?",
+        "What is my current water consumption?",
+        "Tell me about my water usage."
+      ],
+      "responses": [
+        "Sure, I can help with that. Please provide me with your account number or address so I can access your water consumption data.",
+        "To check your current water consumption, I'll need your account details. Can you please provide them?"
+      ]
+    },
+    {
+      "tag": "electricity_consumption",
+      "patterns": [
+        "What's my electricity usage for this month?",
+        "Tell me about my electricity consumption.",
+        "How much electricity have I used?"
+      ],
+      "responses": [
+        "Certainly, I can assist you with that. Please share your account number or address to access your electricity consumption data.",
+        "To check your current electricity consumption, I'll require your account information. Can you provide it?"
+      ]
+    },
+    {
+      "tag": "payment_info",
+      "patterns": [
+        "How do I pay my utility bills?",
+        "Tell me about the payment options.",
+        "What are the accepted payment methods?"
+      ],
+      "responses": [
+        "You can pay your utility bills through various methods, including online payment, bank transfer, or visiting our payment centers. We accept credit cards, debit cards, and bank transfers.",
+        "We offer several payment options for your convenience. You can pay online, through our mobile app, by phone, or in person. We accept credit cards, debit cards, and bank transfers."
+      ]
+    },
+    {
+      "tag": "usage_comparison",
+      "patterns": [
+        "Compare my current usage to last month.",
+        "How does my consumption this month compare to the previous month?",
+        "Tell me the difference in my utility consumption."
+      ],
+      "responses": [
+        "Sure, I can provide a comparison of your current usage with the previous month. Please provide the month you'd like to compare.",
+        "To compare your consumption, I need to know the months you want to compare. Please specify the months you're interested in."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact customer support?",
+        "Give me the customer support phone number.",
+        "I need to speak with a customer service representative."
+      ],
+      "responses": [
+        "You can reach our customer support team at [Customer Support Phone Number]. We're here to assist you!",
+        "If you need to speak with a customer service representative, please call our support hotline at [Customer Support Phone Number]."
+      ]
+    },
+    {
+      "tag": "water_usage_tips",
+      "patterns": [
+        "Give me tips to reduce water usage.",
+        "How can I save water at home?",
+        "Share water conservation tips."
+      ],
+      "responses": [
+        "To reduce water usage, consider fixing any leaks, using a low-flow showerhead, and collecting rainwater for outdoor use. You can also run dishwashers and washing machines with full loads.",
+        "Here are some water-saving tips: fix leaks promptly, install water-efficient appliances, collect rainwater for plants, and be mindful of water use while washing dishes or clothes."
+      ]
+    },
+    {
+      "tag": "electricity_saving_tips",
+      "patterns": [
+        "Give me tips to save electricity.",
+        "How can I reduce my electricity bill?",
+        "Share energy-saving tips."
+      ],
+      "responses": [
+        "To save electricity, try using LED bulbs, turning off lights when not in use, unplugging devices, and setting your thermostat efficiently. Additionally, consider energy-efficient appliances.",
+        "Here are some electricity-saving tips: use LED lighting, unplug devices when not needed, set thermostats wisely, and invest in energy-efficient appliances to reduce your electricity bill."
+      ]
+    },
+    {
+      "tag": "bill_inquiry",
+      "patterns": [
+        "How can I view my utility bill online?",
+        "Tell me about accessing my bill online.",
+        "How do I check my monthly utility statement?"
+      ],
+      "responses": [
+        "You can access your utility bill online by logging into your account on our website. From there, you can view and download your monthly statements.",
+        "To view your utility bill online, log in to your account on our website and navigate to the billing section. You'll find your monthly statements available for download."
+      ]
+    },
+    {
+      "tag": "report_issue",
+      "patterns": [
+        "I have a water leak issue.",
+        "There's an electricity problem in my area.",
+        "How can I report a utility problem?"
+      ],
+      "responses": [
+        "I'm sorry to hear about the water leak issue. Please contact our emergency hotline at [Emergency Phone Number] immediately for assistance.",
+        "If you're experiencing electricity problems in your area, please report it to our maintenance team by calling [Emergency Phone Number] for a prompt resolution."
+      ]
+    },
+    {
+      "tag": "payment_due_date",
+      "patterns": [
+        "When is my utility bill due?",
+        "Tell me the due date for my monthly payment.",
+        "When should I pay my utility bill?"
+      ],
+      "responses": [
+        "Your utility bill is due on the [Due Date]. Please ensure to make the payment by that date to avoid any late fees.",
+        "The due date for your monthly utility bill is [Due Date]. We recommend making the payment on or before this date to avoid late charges."
+      ]
+    },
+    {
+      "tag": "usage_data_accuracy",
+      "patterns": [
+        "How accurate is my usage data?",
+        "Can I trust the consumption data provided?",
+        "Is the utility data measurement reliable?"
+      ],
+      "responses": [
+        "Our utility data measurement is highly accurate and reliable. We use advanced metering technology to ensure precision in recording your consumption. [Learn more](https://google.com)",
+        "You can trust the consumption data we provide. We utilize state-of-the-art metering technology to ensure the accuracy and reliability of your usage information. [More details here](https://example.com/accuracy-info)"
+      ]
+    },
+    {
+      "tag": "getting_started",
+      "patterns": [
+        "How do I get started with this app?"
+      ],
+      "responses": [
+        "To get started, enter all your details in the login page and accept the terms and conditions of the app."
+      ]
+    },
+    {
+      "tag": "subscription_fee",
+      "patterns": [
+        "Is there any subscription or money to be paid to access the app?"
+      ],
+      "responses": [
+        "No, it's free for everyone."
+      ]
+    },
+    {
+      "tag": "create_account",
+      "patterns": [
+        "How do I create an account?"
+      ],
+      "responses": [
+        "To create an account, click on the profile and then click on 'Create Account.' Provide the necessary information."
+      ]
+    },
+    {
+      "tag": "usage_alerts",
+      "patterns": [
+        "Do I get all the alerts based on my usage?"
+      ],
+      "responses": [
+        "Yes, based on your usage, you will receive alerts with increasing prices per unit."
+      ]
+    },
+    {
+      "tag": "ranking",
+      "patterns": [
+        "How can I know my ranking?"
+      ],
+      "responses": [
+        "In your profile, your ranking is provided with details."
+      ]
+    },
+    {
+      "tag": "reduce_charges",
+      "patterns": [
+        "Is there any way to reduce the charges?"
+      ],
+      "responses": [
+        "Yes, by using less than 50 units, your price will be basic, and if you consume less, you can reduce your electricity bill."
+      ]
+    },
+    {
+      "tag": "app_purpose",
+      "patterns": [
+        "How does this app help us?"
+      ],
+      "responses": [
+        "This app helps you monitor your bill and easily manage your usage to reduce taxes and prices."
+      ]
+    },
+    {
+      "tag": "estimated_bill",
+      "patterns": [
+        "Does the estimated bill will be appropriate?"
+      ],
+      "responses": [
+        "Yes, based on the number of units you have consumed, we will calculate and provide an estimated bill, which may have minor changes."
+      ]
+    },
+    {
+      "tag": "set_goal",
+      "patterns": [
+        "What does set goal mean?"
+      ],
+      "responses": [
+        "'Set goal' allows you to set a unit limit, giving you a clear idea of how to reduce your bill."
+      ]
+    },
+    {
+      "tag": "phonenumber_mandatory",
+      "patterns": [
+        "Is a phone number mandatory?"
+      ],
+      "responses": [
+        "Yes, a phone number is mandatory."
+      ]
+    },
+    {
+      "tag": "data_security",
+      "patterns": [
+        "Is my data secured?"
+      ],
+      "responses": [
+        "Yes, your data is completely safe and will not be shared."
+      ]
+    },
+    {
+      "tag": "app_purpose",
+      "patterns": [
+        "What is the app's primary purpose or main function?"
+      ],
+      "responses": [
+        "The main function is to create awareness on how to conserve electricity."
+      ]
+    },
+    {
+      "tag": "consumption_restrictions",
+      "patterns": [
+        "Is there any restrictions in the consumption?"
+      ],
+      "responses": [
+        "No, there are no consumption restrictions. Only alerts will be given."
+      ]
+    }
+  ]
+}
