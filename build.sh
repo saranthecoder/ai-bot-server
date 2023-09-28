@@ -16,11 +16,13 @@ source "$activate_script"
 
 # Install required packages
 pip install Flask torch torchvision nltk
-pip install gunicorn==19.7.1
-
 
 # Copy 'punkt' dataset to the default NLTK data path
-python -c "import nltk, shutil; shutil.copytree('nltk_data', nltk.data.find('corpora'))"
+#python -c "import nltk, shutil; shutil.copytree('nltk_data', nltk.data.find('corpora'))"
+python - <<END
+import nltk
+nltk.download('punkt')
+END
 
 
 /opt/render/project/src/venv/bin/python -m pip install --upgrade pip
